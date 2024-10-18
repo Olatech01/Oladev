@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import React from 'react'
+import Type from './Type'
 
 const Hero = () => {
     return (
         <div className="home-section flex flex-col gap-[5rem]">
-            <div className='flex home-content justify-between items-center pt-[5rem]'>
+            <div className='flex home-content justify-between items-center pt-[5rem] sm:pt-[7rem] sm:flex-col'>
                 <div className='w-full'>
                     <h1 style={{ paddingBottom: 15 }} className="heading">
                         Hi There!{" "}
@@ -17,14 +18,15 @@ const Hero = () => {
                         I'M
                         <strong className="main-name"> SULEIMAN MUSTAPHA</strong>
                     </h1>
+                    <Type />
                 </div>
-                <div className='w-1/2'>
+                <div className=''>
                     <Image height={100} width={700} src={"/home-main.svg"} className='w-full' />
                 </div>
             </div>
-            <div className='flex gap-[2rem]'>
-                <div className='w-full text-[whitesmoke]'>
-                    <h1 style={{ fontSize: "2.6em" }}>
+            <div className='flex gap-[2rem] sm:flex-col sm:items-center'>
+                <div className='w-full text-[whitesmoke] flex flex-col gap-2'>
+                    <h1 className='font-bold text-[40px] sm:text-[25px]'>
                         LET ME <span className="text-[#c770f0]"> INTRODUCE </span> MYSELF
                     </h1>
                     <p className="home-about-body">
@@ -61,7 +63,7 @@ const Hero = () => {
                         </i>
                     </p>
                 </div>
-                <div className='w-1/2'>
+                <div className=''>
                     <Image height={100} width={300} src={"/avatar.svg"}/>
                 </div>
             </div>

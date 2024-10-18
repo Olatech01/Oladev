@@ -6,12 +6,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div >
-      <ParticlesComponent id="particles" />
-      <div className="px-[5rem]">
-        <Hero />
-        <Contact />
-      </div>
+    <div className="px-[10rem] sm:px-4">
+      <Hero />
+      <Contact />
     </div>
   );
 }

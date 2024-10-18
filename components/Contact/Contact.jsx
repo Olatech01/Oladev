@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div className='flex flex-col gap-4 items-center justify-center'>
         <h2 className='font-bold text-[20px] text-white'>Hire Me</h2>
-        <form action="" className='w-[50%] flex flex-col gap-2'>
+        <form action="" className='lg:w-[50%] flex flex-col gap-2 sm:w-full'>
             <div className='w-full flex flex-col gap-1'>
                 <label htmlFor="" className='text-[16px] font-semibold text-white'>Name</label>
                 <input type="text" 
