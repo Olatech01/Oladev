@@ -7,7 +7,7 @@ const AboutCard = () => {
       <blockquote className="blockquote mb-0 flex flex-col gap-2">
         <p className='font-semibold'>
           Hi Everyone, I am <span className="text-[#c770f0]">Mustapha Suleiman </span>
-          from <span className="text-[#c770f0]"> Kwara state, Nigeria.</span>
+          from <span className="text-[#c770f0]">Nigeria.</span>
           <br /> I am an 0'level student.
           <br />
           Additionally, I am currently employed as a Frontend Developer at
