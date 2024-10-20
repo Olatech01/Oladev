@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div className='flex flex-col gap-4 items-center justify-center w-full'>
             <div>
-                <h1 className="text-[45px] font-bold">
+                <h1 className="text-[45px] sm:text-[30px] font-bold">
                     My Recent <strong className="text-[#c770f0]">Works </strong>
                 </h1>
                 <p style={{ color: "white" }}>

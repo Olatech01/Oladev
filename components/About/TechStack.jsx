@@ -14,7 +14,7 @@ const TechStack = () => {
             <h1 className="text-[45px] font-bold">
                 Professional <strong className="text-[#c770f0]">Skillset </strong>
             </h1>
-            <div className='flex justify-between w-full sm:grid sm:grid-cols-2'>
+            <div className='flex justify-between w-full sm:grid sm:grid-cols-2 sm:gap-2'>
                 <p className="tech-icons">
                     <DiJavascript1 />
                 </p>

@@ -6,7 +6,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className="px-[10rem] text-white pt-[5rem] sm:pt-[7rem] sm:px-3">
+    <div className="px-[10rem] text-white pt-[5rem] sm:pt-[7rem] sm:px-4">
       <About />
       <TechStack />
       <Tools />

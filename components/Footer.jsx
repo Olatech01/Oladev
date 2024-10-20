@@ -14,13 +14,13 @@ const Footer = () => {
             <h3 className='text-white font-semibold'>Designed and Developed by Olatech</h3>
             <h3 className='text-white font-semibold'>Copyright © {year} OT</h3>
             <div className="flex justify-center items-center gap-2 text-white">
-                <Link href="https://github.com/pending" target="_blank" rel="noopener noreferrer">
+                <Link href="/" target="_blank" rel="noopener noreferrer">
                     <AiFillGithub size={32} />
                 </Link>
-                <Link href="https://twitter.com/pending" target="_blank" rel="noopener noreferrer">
+                <Link href="/" target="_blank" rel="noopener noreferrer">
                     <AiOutlineTwitter size={32} />
                 </Link>
-                <Link href="https://www.instagram.com/pending" target="_blank" rel="noopener noreferrer">
+                <Link href="/" target="_blank" rel="noopener noreferrer">
                     <AiFillInstagram size={32} />
                 </Link>
             </div>

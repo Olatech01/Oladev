@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="px-[10rem] sm:px-4">
+    <div className="px-[10rem] sm:px-4 gap-[5rem] flex flex-col">
       <Hero />
       <Contact />
     </div>
