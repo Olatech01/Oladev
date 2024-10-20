@@ -8,7 +8,7 @@ const AboutCard = () => {
         <p className='font-semibold'>
           Hi Everyone, I am <span className="text-[#c770f0]">Mustapha Suleiman </span>
           from <span className="text-[#c770f0]">Nigeria.</span>
-          <br /> I am an 0'level student.
+          <br />
           <br />
           Additionally, I am currently employed as a Frontend Developer at
           Toshconsult Technologies Inc.
